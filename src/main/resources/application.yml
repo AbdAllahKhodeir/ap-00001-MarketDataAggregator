@@ -1,5 +1,7 @@
 spring:
   config:
+    activate:
+      on-profile: test
     import: optional:file:./application-test.yml
   datasource:
     url: ${DB_URL}

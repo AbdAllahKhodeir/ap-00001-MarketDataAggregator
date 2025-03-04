@@ -1,6 +1,7 @@
 name: CI Pipeline
 
 env:
+  SPRING_PROFILES_ACTIVE: ${{ secrets.SPRING_PROFILES_ACTIVE }}
   DB_URL: ${{ secrets.DB_URL }}
   DB_USERNAME: ${{ secrets.DB_USERNAME }}
   DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
