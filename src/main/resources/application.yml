@@ -1,4 +1,6 @@
 spring:
+  config:
+    import: optional:file:./application-test.yml
   datasource:
     url: ${DB_URL}
     username: ${DB_USERNAME}

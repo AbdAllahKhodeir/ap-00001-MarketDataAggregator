@@ -6,7 +6,14 @@ spring:
     password:
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
   data:
     redis:
       host: localhost
       port: 6379
+  security:
+    user:
+      name: test
+      password: test
