@@ -42,6 +42,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           mvn sonar:sonar \
-            -Dsonar.organization=your-org \
-            -Dsonar.projectKey=AB-00001-MarketDataAggregator \
+            -Dsonar.organization=abdallahkhodeir\
+            -Dsonar.projectKey=ap-00001-MarketDataAggregator \
             -Dsonar.host.url=https://sonarcloud.io
